@@ -4,9 +4,11 @@
   "description": "Lisa Sundberg's portfolio",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+	  "client-install": "npm install --prefix client",
+	  "start": "node server.js",
+	  "server": "nodemon server.js",
+	  "client": "npm start --prefix client",
+	  "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Lisa Sundberg",
   "license": "ISC",
