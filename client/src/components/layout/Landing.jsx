@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Landing = () => {
   return (
@@ -17,7 +17,7 @@ const Landing = () => {
           </p>
           <br />
           <div className="col s6">
-            {/* <Link
+            <Link
               to="/register"
               style={{
                 width: "140px",
@@ -40,7 +40,7 @@ const Landing = () => {
               className="btn btn-large btn-flat waves-effect white black-text"
             >
               Log In
-            </Link> */}
+            </Link>
           </div>
         </div>
       </div>

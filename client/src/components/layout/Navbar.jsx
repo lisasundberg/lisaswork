@@ -1,11 +1,11 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <div className="navbar-fixed">
     <nav className="z-depth-0">
       <div className="nav-wrapper white">
-        {/* <Link
+        <Link
           to="/"
           style={{
             fontFamily: 'monospace',
@@ -14,7 +14,7 @@ const Navbar = () => (
         >
           <i className="material-icons">code</i>
           MERN
-        </Link> */}
+        </Link>
       </div>
     </nav>
   </div>
