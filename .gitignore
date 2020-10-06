@@ -2,7 +2,7 @@
 
 # dependencies
 backend/node_modules
-/node_modules
+client/node_modules
 /.pnp
 .pnp.js
 
@@ -27,3 +27,5 @@ yarn-error.log*
 
 backend/config/keys.js
 backend/config/old-index.js
+
+client/build
